@@ -1,4 +1,4 @@
-sum =0
+import numpy as np
 # def aVeryBigSum(arr):
 #     global sum
 #     if a==0:
@@ -13,3 +13,14 @@ sum =0
 
 # print (aVeryBigSum(5, 1000000001))
 
+# def aVeryBigSum(arr):
+#     sum=0
+#     for i in arr:
+#         sum+=i
+#     return sum
+
+def aVeryBigSum(arr):
+    return sum(arr)
+
+
+print (aVeryBigSum([1000000001, 1000000002, 1000000003, 1000000004, 1000000005]))
